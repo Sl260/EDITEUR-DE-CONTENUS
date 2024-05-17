@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.home-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.side {
+  flex: 1; /* Les côtés prennent chacun 1 fraction de l'espace disponible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.middle {
+  flex: 2; /* La section du milieu prend 2 fractions, la rendant plus large */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-editor {
+  width: 100%;
+  height: 300px; /* Hauteur arbitraire, ajustez selon vos besoins */
+  padding: 10px;
+  box-sizing: border-box;
+}
